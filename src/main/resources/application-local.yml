@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /user-service-no-db
+  port: 9093
+
+spring:
+  application:
+    name: user-service-no-db
+    
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
